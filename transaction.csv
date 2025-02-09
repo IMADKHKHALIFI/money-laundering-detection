@@ -1,0 +1,114 @@
+Time,Payment_currency,Payment_type,Amount,Sender_account,Receiver_account,Received_currency,Sender_bank_location,Receiver_bank_location
+10:15:45,EUR,SWIFT,12000,123456,234567,EUR,France,Germany
+14:30:10,USD,WIRE,5000,345678,456789,USD,USA,UK
+09:20:30,GBP,SEPA,8000,567890,678901,GBP,UK,France
+69350,KZT,WIRE,32852.1,0,0,CDF,Chile,Macao
+20452,LRD,Cryptocurrency,42053.76,0,0,BBD,Lebanon,Jordan
+72504,ANG,Cryptocurrency,10530.9,0,0,GEL,Guernsey,Paraguay
+27067,RON,WIRE,11229.37,0,0,ERN,Bahamas,Bulgaria
+69701,THB,WIRE,9592.37,0,0,SAR,Philippines,Serbia
+58304,TTD,Cryptocurrency,43673.6,0,0,STD,Albania,El Salvador
+57345,LBP,Internal Transfer,10662.46,0,0,BZD,Vietnam,Faroe Islands
+14378,CUC,Internal Transfer,19655.95,0,0,GIP,Djibouti,Cote d'Ivoire
+85881,ETB,Mobile Payment,37184.51,0,0,IDR,French Polynesia,Spain
+10400,PAB,Offshore Transfer,2324.45,0,0,DOP,United States Minor Outlying Islands,Western Sahara
+30396,SGD,Cash Deposit,36351.99,0,0,GYD,Moldova,Aruba
+5442,HKD,Cash Deposit,20317.46,0,0,GTQ,Monaco,Tunisia
+12101,CAD,Cryptocurrency,29773.23,0,0,BDT,Togo,Ireland
+42302,ALL,Credit Card,26386.48,0,0,UZS,Bangladesh,Slovakia (Slovak Republic)
+22885,JEP,Credit Card,49496.33,0,0,MMK,Mozambique,Japan
+40824,DOP,Mobile Payment,38267.81,0,0,XAF,Ghana,Ghana
+7248,MYR,WIRE,20006.65,0,0,LBP,Singapore,United States Minor Outlying Islands
+33332,MAD,WIRE,38370.68,0,0,KGS,Sweden,French Southern Territories
+20181,HNL,Cheque,7757.58,0,0,RWF,South Africa,Bosnia and Herzegovina
+46968,RWF,Cheque,39893.59,0,0,ZMW,Lebanon,Slovenia
+62141,BHD,Cryptocurrency,39001.72,0,0,PYG,Vanuatu,Ghana
+66544,KPW,WIRE,23891.68,0,0,MYR,French Guiana,Tunisia
+77698,HUF,Offshore Transfer,27895.68,0,0,SVC,Greece,Antarctica (the territory South of 60 deg S)
+84458,ANG,Cash Deposit,26808.71,0,0,GNF,Azerbaijan,Egypt
+28791,CUP,Offshore Transfer,43605.99,0,0,TND,Angola,Lao People's Democratic Republic
+15647,MZN,Offshore Transfer,4914.13,0,0,MWK,Malta,Guernsey
+23227,HKD,Cryptocurrency,10125.97,0,0,ALL,Zimbabwe,North Macedonia
+20116,PAB,WIRE,44786.85,0,0,UYU,Finland,Kuwait
+36701,MWK,WIRE,3673.46,0,0,BIF,Belarus,Senegal
+85244,VEF,Mobile Payment,27306.4,0,0,GMD,Liberia,Congo
+46188,BZD,Cryptocurrency,33777.77,0,0,JEP,South Georgia and the South Sandwich Islands,Andorra
+4379,HKD,Cash Deposit,10161.44,0,0,MZN,Burundi,Germany
+24417,GNF,WIRE,36757.6,0,0,MWK,Saint Barthelemy,Nigeria
+60638,LBP,Offshore Transfer,27320.22,0,0,PGK,Saint Vincent and the Grenadines,Saint Helena
+27564,LSL,Offshore Transfer,9531.06,0,0,PAB,Netherlands Antilles,Austria
+54232,COP,Credit Card,12042.66,0,0,PHP,Czech Republic,Norfolk Island
+78101,WST,Offshore Transfer,14570.14,0,0,DZD,Zambia,Argentina
+32758,SPL,Cheque,21237.83,0,0,SCR,Comoros,Bermuda
+82550,AFN,Cash Deposit,10163.08,0,0,RWF,Chile,Switzerland
+74985,VUV,Offshore Transfer,13941.88,0,0,SRD,Bahamas,British Indian Ocean Territory (Chagos Archipelago)
+14094,BBD,Internal Transfer,44087.82,0,0,DZD,Pakistan,Sweden
+85148,BGN,Credit Card,10335.57,0,0,JEP,Bouvet Island (Bouvetoya),Saint Vincent and the Grenadines
+56027,BHD,Cash Deposit,45026.03,0,0,SZL,Botswana,Belize
+28273,MUR,Cheque,17233.57,0,0,CVE,Tunisia,San Marino
+31165,THB,Credit Card,33734.25,0,0,MGA,Bolivia,Moldova
+20684,ZMW,Credit Card,34003.19,0,0,XDR,Belize,Jamaica
+74,SYP,Cash Deposit,11981.51,0,0,CUP,Finland,New Zealand
+22354,AWG,Cash Deposit,37004.51,0,0,PHP,United States Virgin Islands,Korea
+60844,BYR,Cash Deposit,46700.54,0,0,AMD,Comoros,Gibraltar
+18171,MVR,Cash Deposit,31504.72,0,0,FJD,Comoros,Trinidad and Tobago
+38055,AWG,WIRE,28510.35,0,0,MUR,Romania,Suriname
+48401,MAD,WIRE,22149.04,0,0,GGP,Lebanon,Egypt
+75213,BZD,Cryptocurrency,33696.67,0,0,COP,Norway,Cuba
+5142,KWD,Offshore Transfer,26753.14,0,0,GTQ,Switzerland,Gabon
+29384,VEF,Internal Transfer,35819.6,0,0,TJS,Croatia,Czech Republic
+71504,GBP,WIRE,32772.54,0,0,PYG,Denmark,Spain
+35757,CLP,WIRE,13136.66,0,0,MWK,Cameroon,Saint Helena
+86135,NIS,Internal Transfer,15809.58,0,0,DJF,Kiribati,Lebanon
+63432,PYG,WIRE,3325.33,0,0,BZD,Mozambique,Syrian Arab Republic
+29807,JPY,Cryptocurrency,35585.75,0,0,PKR,Tokelau,Pitcairn Islands
+398,AED,Cash Deposit,47163.59,0,0,NGN,Kiribati,Ukraine
+23501,MGA,Credit Card,2920.31,0,0,AED,Iraq,British Virgin Islands
+34349,DZD,WIRE,39005.73,0,0,MOP,Montenegro,Russian Federation
+65977,BDT,Cash Deposit,36460.31,0,0,TWD,Pitcairn Islands,French Guiana
+65254,CVE,Mobile Payment,12524.32,0,0,YER,Iraq,Pakistan
+16129,GBP,Cheque,20054.44,0,0,UYU,Fiji,New Caledonia
+25631,NAD,Cryptocurrency,7632.51,0,0,TMT,Niger,Rwanda
+60539,XAF,Credit Card,42748.26,0,0,IMP,Peru,Bolivia
+28386,XOF,Cheque,45216.37,0,0,GYD,Kiribati,Hong Kong
+37430,UZS,Mobile Payment,17201.92,0,0,ETB,Antigua and Barbuda,Ghana
+63751,SOS,WIRE,43040.93,0,0,RON,Guatemala,Central African Republic
+15108,IDR,Credit Card,3691.01,0,0,KZT,British Indian Ocean Territory (Chagos Archipelago),India
+83975,ERN,Cash Deposit,14412.76,0,0,CNY,Micronesia,Saint Vincent and the Grenadines
+9397,IQD,Offshore Transfer,49399.42,0,0,PLN,Iceland,San Marino
+82950,PEN,Cash Deposit,49695.88,0,0,BOB,Pakistan,China
+45389,CUP,Mobile Payment,22482.4,0,0,SOS,Tanzania,Paraguay
+35228,PLN,Credit Card,42833.74,0,0,UGX,Canada,Congo
+67197,SHP,Cheque,36695.34,0,0,CRC,Cape Verde,Andorra
+4037,GMD,Cheque,3821.81,0,0,DZD,Argentina,Uganda
+36611,PGK,Cash Deposit,28332.97,0,0,LKR,Sierra Leone,Tanzania
+48217,NOK,Cheque,41606.7,0,0,RSD,Qatar,Morocco
+16356,ERN,Cash Deposit,25726.62,0,0,AWG,Cote d'Ivoire,Costa Rica
+48447,CNY,Cheque,47742.89,0,0,PEN,Eritrea,Chile
+27377,ALL,Credit Card,35361.4,0,0,ANG,Qatar,Korea
+63918,BZD,Cheque,31651.83,0,0,USD,Somalia,Guernsey
+3381,KPW,Offshore Transfer,22708.78,0,0,BYR,Iceland,Italy
+40661,ARS,Cash Deposit,48729.85,0,0,BRL,Cote d'Ivoire,China
+21043,CNY,Cash Deposit,19128.25,0,0,JOD,Saint Barthelemy,Singapore
+66074,PAB,Credit Card,32673.34,0,0,MVR,Iceland,Korea
+11077,TJS,Cheque,4737.42,0,0,GYD,Cuba,Cape Verde
+61376,AWG,Cryptocurrency,18055.58,0,0,ALL,Togo,Mexico
+78916,JPY,Credit Card,9029.15,0,0,LKR,Estonia,Mayotte
+51721,CAD,Cryptocurrency,22177.87,0,0,TRY,Palestinian Territory,Antarctica (the territory South of 60 deg S)
+40306,JEP,Internal Transfer,42113.5,0,0,TRY,Bosnia and Herzegovina,Moldova
+30385,HKD,Cash Deposit,8220.52,0,0,SEK,Guinea,Morocco
+75056,RUB,WIRE,2545.46,0,0,BWP,Korea,Cayman Islands
+85054,SCR,Credit Card,39648.19,0,0,SCR,Italy,Estonia
+33918,IQD,Offshore Transfer,7383.5,0,0,TZS,Sudan,French Southern Territories
+5657,MRO,Cheque,10738.15,0,0,LTL,Uruguay,Estonia
+65133,XCD,Cryptocurrency,24523.49,0,0,INR,Holy See (Vatican City State),Nicaragua
+18839,KHR,Internal Transfer,9810.63,0,0,XAF,Antarctica (the territory South of 60 deg S),Somalia
+50335,UGX,Cash Deposit,2923.65,0,0,NPR,Bouvet Island (Bouvetoya),Thailand
+39063,BGN,Offshore Transfer,36120.6,0,0,KHR,French Guiana,Guinea-Bissau
+83310,SEK,WIRE,36432.08,0,0,CVE,Guatemala,Bangladesh
+433,KZT,Internal Transfer,21512.43,0,0,KWD,Malawi,Cote d'Ivoire
+59297,GMD,Internal Transfer,47052.41,0,0,GHS,Lesotho,Oman
+8227,PAB,Credit Card,30001.46,0,0,NZD,Timor-Leste,Jordan
+15406,ANG,Mobile Payment,49989.66,0,0,TZS,Belgium,Azerbaijan
+43701,WST,Internal Transfer,4561.91,0,0,MZN,Bulgaria,Togo
+2284,LRD,WIRE,10888.38,0,0,KMF,Saint Lucia,Vanuatu

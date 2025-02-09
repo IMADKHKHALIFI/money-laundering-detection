@@ -1,0 +1,7 @@
+Sender_account,Receiver_account,Amount,Payment_currency,Payment_type,Time,Is_laundering,Laundering_probability
+123456789,987654321,5000.0,USD,Bank Transfer,14:30:10,YES,59.37
+234567890,876543210,12000.0,EUR,Wire Transfer,10:15:45,YES,99.48
+345678901,765432109,2500.0,GBP,Cash Deposit,09:45:20,NO,0.82
+456789012,654321098,70000.0,USD,Online Transfer,16:20:00,YES,99.98
+567890123,543210987,800.0,JPY,ATM Withdrawal,08:30:00,NO,0.26
+678901234,432109876,15000.0,USD,Cryptocurrency,21:45:55,YES,98.25

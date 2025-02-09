@@ -1,0 +1,8 @@
+.page-background {
+  background: linear-gradient(to right, #0000ff, #4b0082); /* Adjust colors as needed */
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 

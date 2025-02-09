@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" sizes="any" />
+    <link rel="icon" href="%PUBLIC_URL%/icon.png" sizes="32x32" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/apple-icon.png" sizes="180x180" />
+    <link rel="icon" href="%PUBLIC_URL%/icon-128.png" sizes="128x128" />
+    <link rel="icon" href="%PUBLIC_URL%/icon-512.png" sizes="512x512" />
+    <title>GuardianFlow</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .upload-container {
+            text-align: center;
+            margin: 20px 0;
+            padding: 20px;
+            border: 2px dashed #ccc;
+            border-radius: 5px;
+        }
+        .results {
+            margin-top: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        .summary {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Money Laundering Detection System</h1>
+    
+    <div class="upload-container">
+        <h2>Upload Transaction Data</h2>
+        <form id="uploadForm">
+            <input type="file" id="csvFile" accept=".csv" required>
+            <button type="submit">Analyze Transactions</button>
+        </form>
+    </div>
+
+    <div id="results" class="results hidden">
+        <h2>Analysis Results</h2>
+        
+        <div class="summary">
+            <h3>Summary</h3>
+            <p>Total Transactions: <span id="totalTransactions">0</span></p>
+            <p>Flagged Transactions: <span id="flaggedTransactions">0</span></p>
+            <p>Average Probability: <span id="averageProbability">0</span>%</p>
+        </div>
+
+        <h3>Detailed Results</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Sender Account</th>
+                    <th>Receiver Account</th>
+                    <th>Amount</th>
+                    <th>Payment Currency</th>
+                    <th>Payment Type</th>
+                    <th>Time</th>
+                    <th>Is Laundering</th>
+                    <th>Probability</th>
+                </tr>
+            </thead>
+            <tbody id="resultsTable">
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        document.getElementById('uploadForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const fileInput = document.getElementById('csvFile');
+            const formData = new FormData();
+            formData.append('file', fileInput.files[0]);
+
+            try {
+                const response = await fetch('http://localhost:5000/api/predict', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                const data = await response.json();
+                
+                if (data.error) {
+                    alert(data.error);
+                    return;
+                }
+
+                // Show results section
+                document.getElementById('results').classList.remove('hidden');
+
+                // Update summary
+                document.getElementById('totalTransactions').textContent = data.summary.total_transactions;
+                document.getElementById('flaggedTransactions').textContent = data.summary.flagged_transactions;
+                document.getElementById('averageProbability').textContent = data.summary.average_probability;
+
+                // Update table
+                const tbody = document.getElementById('resultsTable');
+                tbody.innerHTML = '';
+                
+                data.predictions.forEach(pred => {
+                    const row = tbody.insertRow();
+                    row.innerHTML = `
+                        <td>${pred.Sender_account}</td>
+                        <td>${pred.Receiver_account}</td>
+                        <td>${pred.Amount}</td>
+                        <td>${pred.Payment_currency}</td>
+                        <td>${pred.Payment_type}</td>
+                        <td>${pred.Time}</td>
+                        <td>${pred.Is_laundering}</td>
+                        <td>${pred.Laundering_probability}%</td>
+                    `;
+                });
+            } catch (error) {
+                alert('Error analyzing transactions: ' + error.message);
+            }
+        });
+    </script>
+</body>
+</html> 

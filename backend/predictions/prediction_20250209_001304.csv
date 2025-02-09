@@ -1,0 +1,4 @@
+Sender_account,Receiver_account,Amount,Payment_currency,Payment_type,Time,Is_laundering,Laundering_probability
+123456,234567,12000.0,EUR,SWIFT,10:15:45,YES,99.97
+345678,456789,5000.0,USD,WIRE,14:30:10,YES,84.9
+567890,678901,8000.0,GBP,SEPA,09:20:30,YES,99.55
